@@ -1,0 +1,21 @@
+.form {
+  max-width: 385px;
+}
+.form fieldset {
+  box-sizing: border-box;
+  border: none;
+}
+.form__label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+.form__input {
+}
+.form__button {
+}
+.form__label_checkbox {
+}
+.form__checkbox {
+}
