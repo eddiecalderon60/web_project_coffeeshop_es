@@ -19,15 +19,15 @@
          <img src="logo_coffeeshop_dark.svg" alt="logo" class="logo">
         <ul class="nav-links">
         <li><a href="#section-id" class="nav-link">Reservar una mesa</a></li>
-        <li><a href="#section-id" class="nav-link">Contactos</a></li> 
-        </ul> 
+        <li><a href="#section-id" class="nav-link">Contactos</a></li>
+        </ul>
 </nav>
 <h1 class="header-title">
 <span class="span-accent">Café de especialidad</span>
     <span class="span">en Triple Picks</span>
 </h1>
 <p class="header-description">
-    Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café para darte energía y motivar tu creatividad. 
+    Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café para darte energía y motivar tu creatividad.
 </p>
 <img src="inside_coffee_shop.png" alt="cover-image" class="header-image">
 <div class="header-info">
@@ -39,14 +39,43 @@
     <p class="info-text">Avenida del Éxito 200, Ciudad Triple Peaks</p>
 </div>
 </header>
-<main 
-<div class="content">
-</div>
-
+<main class="content">
+<section class="reservation">
+</section>
+<h2 class="reservation__title">Reservar una mesa
+</h2>
+  <form class="resevation__form" action="#" method="get">
+    <fieldset class="form__fieldset">
+      <label class ="form__label" for="name">
+        Nombre:
+        <input class="form__input" type="name" name="name" required>
+        </label>
+      <label class="form_label" for="attendees">
+        Número de comensales:
+        <input class="form__input"
+        type="number"
+        name="attendees"
+        min="1"
+        max="8"
+        placeholder="1-8"
+        required/>
+        </Label>
+        <label class ="form__label" for="date">
+        Fecha:
+        <input class="form__input" type="date" name="date" required>
+      </label>
+      <label class="form__label" for="email">
+        Email
+        <input class="form__input" type="email" name="email" placeholder="ediee@tripleten.com"/>
+        <button class="form_button" type="submit">Reservar</button>
+<label class="form_ label" for="terms">
+<input class="form_input" type="checkbox" name="terms" required />
+Acepto los términos y condiciones:
+    </fieldset>
+  </form>
+</section>
 </main>
-<footer
-    <div class="footer">
-    </div>
-    </footer>
+<footer>
+</footer>
 </body>
 </html>
