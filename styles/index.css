@@ -1,1 +1,3 @@
-@import url();
+@import url(./style.css);
+@import url(./reservation.css);
+@import url(../vendor/normalize.css);
